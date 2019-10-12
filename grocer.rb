@@ -64,9 +64,13 @@ def checkout(cart, coupons)
     total_cost += value[:price]*value[:count]
   }
   
+<<<<<<< HEAD
   if total_cost > 100
     total_cost *= 0.9
   end
+=======
+
+>>>>>>> 17a6d2c12d9a88f08db4789995702e985d8d6c66
   
   total_cost.round(2)
 end
